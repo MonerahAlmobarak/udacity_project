@@ -15,6 +15,7 @@ class Config(object):
     CLIENT_ID = os.environ.get('CLIENT_ID') or 'e1b24baf-e14a-438b-acc1-d3cd88871c80'
     CLIENT_SECRET = os.environ.get('CLIENT_SECRET') or 'xw98Q~3YdeTQ3HqqyjgpnoPdLxYtfrbNW0YUDbXb'
 
+    AUTHORITY = os.environ.get('AUTHORITY') or "https://login.microsoftonline.com/common"
 
     REDIRECT_PATH = "/getAToken"
     SCOPE = ["User.Read"]
