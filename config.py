@@ -7,7 +7,7 @@ class Config(object):
 
     # Storage account info
     BLOB_ACCOUNT = os.environ.get('BLOB_ACCOUNT') or 'image11project'
-    BLOB_STORAGE_KEY = os.environ.get('BLOB_STORAGE_KEY') or 'your-storage-key'
+    BLOB_STORAGE_KEY = os.environ.get('BLOB_STORAGE_KEY') or 'M/tPRj5DIHWEYSEgDgaZP2uneZy9RyToRr8RIKv6DfysjMT9ZynUYonVKNu0rQb8BxWv49LtbcDt9LIFwKtsxQ=='
     BLOB_CONTAINER = os.environ.get('BLOB_CONTAINER') or 'images'
 
     # SQL Server info
