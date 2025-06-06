@@ -11,3 +11,7 @@ class Config(object):
     SQL_DATABASE = os.environ.get('SQL_DATABASE') or 'cms'
     SQL_USER_NAME = os.environ.get('SQL_USER_NAME') or 'cmsadmin'
     SQL_PASSWORD = os.environ.get('SQL_PASSWORD') or 'CMS4dmin'
+
+    REDIRECT_PATH = "/getAToken"
+    SCOPE = ["User.Read"]
+    SESSION_TYPE = "filesystem"
